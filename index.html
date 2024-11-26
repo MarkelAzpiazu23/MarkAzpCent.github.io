@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="Tienda de Comercio Electrónico">
+  <title>Comercio Electrónico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="file.png" alt="MarkTronic Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="imagen1.png" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Mouse Gaming</h5>
+            <p class="card-text">Mouse Gaming de la marca SteelSeries.</p>
+            <p class="card-text"><strong>Precio: 15.00€</strong></p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="imagen2.png" class="card-img-top" alt="Producto 2">
+          <div class="card-body">
+            <h5 class="card-title">Keyboard Gaming</h5>
+            <p class="card-text">Keyboard Gaming de la marca Brazers.</p>
+            <p class="card-text"><strong>Precio: 30.00€</strong></p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="imagen3.png" class="card-img-top" alt="Producto 3">
+          <div class="card-body">
+            <h5 class="card-title">WebCam</h5>
+            <p class="card-text">WebCam de la marca Game Factor</p>
+            <p class="card-text"><strong>Precio: 10.00€</strong></p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="imagen4.png" class="card-img-top" alt="Producto 4">
+          <div class="card-body">
+            <h5 class="card-title">Mouse Pad</h5>
+            <p class="card-text">Mouse Pad de la marca Brazers.</p>
+            <p class="card-text"><strong>Precio: 25.00€</strong></p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container my-4">
+    <h2>Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="asunto" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; 2024 MarkTronic. Todos los derechos reservados.</p>
+            <nav class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Contacto</a>
+                <a href="#">Términos y Condiciones</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
